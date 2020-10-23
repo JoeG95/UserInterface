@@ -16,6 +16,7 @@ def operationA():
 
 def operationB():
     MessageBox.showinfo('Connector B', 'Starting sequence')
+    print('Starting')
 
 def close():
     result = MessageBox.askquestion('Exit', 'Do you want to leave?')
