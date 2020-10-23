@@ -57,20 +57,20 @@ ConB.grid(
     pady = 0
 )
 
-infoD= Label(app, text = "Oracle Number: 199022")
-infoD.config(
+infoA= Label(app, text = "Oracle Number: 199022")
+infoA.config(
     bg = "light blue",
     fg = "black", font = ("Arial Black", 12)
 )
-infoD.grid(row = 2, column = 0, padx = 0, pady = 0)
+infoA.grid(row = 2, column = 0, padx = 0, pady = 0)
 
-infoE= Label(app, text = "Oracle Number: 970381")
-infoE.config(
+infoB= Label(app, text = "Oracle Number: 970381")
+infoB.config(
     bg = "light blue",
     fg = "black",
     font = ("Arial Black", 12)
 )
-infoE.grid(row = 2, column = 1, padx = 0, pady = 0)
+infoB.grid(row = 2, column = 1, padx = 0, pady = 0)
 
 #--------------------------------------------------------Buttons--------------------------------------------------------
 
